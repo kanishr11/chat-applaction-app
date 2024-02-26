@@ -44,7 +44,7 @@ export const Sidebar = () => {
                         className={`icon  ${lightTheme ? "" : "dark"}`} />
                     </IconButton>
                 </div>
-                <div>
+               
                     <IconButton onClick={()=>{navigate('users')}}>
                         <PersonAddAlt1Icon 
                         className={`icon  ${lightTheme ? "" : "dark"}`} />
@@ -60,7 +60,7 @@ export const Sidebar = () => {
                         {!lightTheme &&  <LightModeIcon
                          className={`icon  ${lightTheme ? "" : "dark"}`} /> }
                     </IconButton>
-                </div>
+                
 
             </div>
             <div className={`sd-search  ${lightTheme ? "" : "dark"}`}>

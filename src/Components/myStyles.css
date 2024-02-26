@@ -421,3 +421,37 @@
     align-items: center; 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
+@media only screen and (max-width: 40rem){
+    .sd-header{
+        flex-direction: column;
+        flex: 1;
+        width:min-content ;
+    }
+    
+    .sd-conversation{
+        display: none;
+    }
+
+    .sd-search{
+        display: none;
+    }
+
+    .icons{
+        flex-direction: column;
+    }
+
+     .chatarea-container{
+        flex: 1;
+     }
+
+     .sidebar-container{
+        flex: 0
+     }
+
+     .main-container{
+        height: 100vh;
+        width: 100vw;
+     }
+
+}

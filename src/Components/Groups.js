@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { IconButton } from '@mui/material'
 import logo from '../Images/real-time-chat.png'
 import { useSelector } from 'react-redux';
+import { motion } from "framer-motion"
 
 
 export const Groups = () => {
@@ -29,43 +30,10 @@ export const Groups = () => {
             <p className='con-icon'>T</p> 
             <p className='con-title'>Test Group</p> 
           </div> 
-          <div className='list-tem'>
+          <motion.div whileHover={{scale:0.9}} className='list-tem'>
             <p className='con-icon'>T</p> 
             <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div> 
-          <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div> 
-          <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div> 
-          <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div>  <div className='list-tem'>
-            <p className='con-icon'>T</p> 
-            <p className='con-title'>Test Group</p> 
-          </div> 
+          </motion.div> 
         </div>
     </div>
   )
